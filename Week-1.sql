@@ -78,7 +78,7 @@ ORDER BY customer_id
 
 ---
 
-**Query #1**
+**#1. What is the total amount each customer spent at the restaurant?**
 
     SELECT customer_id, sum(price) as total_cost
     FROM dannys_diner.sales
